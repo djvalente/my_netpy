@@ -1,0 +1,9 @@
+# Lista de switchs que compoem o heartbit...
+---
+sw_list:
+  - name: SW21
+    ip: "10.123.211.31"
+    type: "cisco"
+  - name: SW31
+    ip: "10.123.211.21"
+    type: "cisco"

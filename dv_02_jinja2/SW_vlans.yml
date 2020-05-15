@@ -1,0 +1,4 @@
+---
+vlans:
+  - name: "dv_teste"
+    id: 332

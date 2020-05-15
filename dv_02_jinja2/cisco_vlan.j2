@@ -1,0 +1,7 @@
+configure terminal
+{% for vlan in data.vlans %}
+vlan {{ vlan.id }}
+ name {{ vlan.name }}
+{% endfor %}
+end
+write memory
